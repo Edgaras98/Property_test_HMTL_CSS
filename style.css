@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: honeydew;
+}
+
+header {
+  background-color: teal;
+  color: white;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header > div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header h3 {
+  color: rgb(202, 202, 202);
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+button#vilnius {
+  padding: 0.7rem;
+  background: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+button {
+  padding: 0.7rem;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+button#add {
+  margin-left: 33rem;
+  padding: 0.7rem;
+  background-color: teal;
+  border: 1px solid teal;
+  color: white;
+}
+
+#property {
+  padding-top: 8rem;
+  width: 30%;
+  display: flex;
+  margin-left: 8rem;
+  justify-content: space-between;
+  align-items: left;
+}
+.flat img {
+  height: 150px;
+}
+
+.flat {
+  box-shadow: 0 20px 10px rgba(44, 43, 43, 0.192);
+  margin: 10px;
+  flex: 2;
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5px;
+}
